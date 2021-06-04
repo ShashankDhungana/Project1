@@ -3,7 +3,7 @@ Every number is given on a separate line'''
 
 l = int(input('enter length:'))
 h = int(input('enter height:'))
-area = (l * h) / 2
+area = (l * h) // 2
 print(area)
 print(f'The area of right angled triangle is : {area}')
 
